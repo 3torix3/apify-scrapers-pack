@@ -1,6 +1,6 @@
 // Open jobs from company career sites (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday…).
 // Usage: APIFY_TOKEN=... node career-jobs.mjs stripe.com huggingface.co
-// Actor: https://apify.com/murch1k/career-site-jobs-scraper ($3 per 1,000 jobs)
+// Actor: https://apify.com/murch1k/career-site-jobs-scraper ($6 per 1,000 jobs)
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: process.env.APIFY_TOKEN });

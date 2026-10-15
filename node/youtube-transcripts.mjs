@@ -1,6 +1,6 @@
 // YouTube transcripts for RAG / LLM prompts.
 // Usage: APIFY_TOKEN=... node youtube-transcripts.mjs <video|@channel|playlist URL> [...]
-// Actor: https://apify.com/murch1k/youtube-transcript-scraper ($3 per 1,000 transcripts)
+// Actor: https://apify.com/murch1k/youtube-transcript-scraper ($5 per 1,000 transcripts)
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: process.env.APIFY_TOKEN });

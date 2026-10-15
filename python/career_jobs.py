@@ -1,7 +1,7 @@
 """All open jobs from company career sites (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday...) -> jobs.csv
 
 Usage: APIFY_TOKEN=... python career_jobs.py stripe.com huggingface.co https://jobs.lever.co/palantir
-Actor: https://apify.com/murch1k/career-site-jobs-scraper ($3 per 1,000 jobs)
+Actor: https://apify.com/murch1k/career-site-jobs-scraper ($6 per 1,000 jobs)
 """
 import csv
 import os

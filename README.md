@@ -23,6 +23,13 @@ website to markdown · web scraping for LLM · AI agent tools · lead generation
 - [Examples in this repo](#examples-in-this-repo)
 - [FAQ](#faq)
 
+
+## Dedicated repos
+
+- [youtube-transcripts-for-rag](https://github.com/3torix3/youtube-transcripts-for-rag) — YouTube transcripts: Python, JS, LangChain, LlamaIndex, n8n, MCP
+- [career-site-jobs-api](https://github.com/3torix3/career-site-jobs-api) — jobs from Greenhouse, Lever, Ashby, Workday… career sites
+- [website-contact-extractor](https://github.com/3torix3/website-contact-extractor) — emails, phones and socials from a list of domains
+
 ## Quick start
 
 1. Create a free account at [apify.com](https://console.apify.com/sign-up) and copy your API token
