@@ -108,7 +108,7 @@ All scrapers: pay per result, no login, no API keys for the target sites, export
 | [RAG Web Search](https://apify.com/murch1k/rag-web-search) | Web search API for AI agents and RAG: top results with full page content as clean Markdown. Region, time range, char limits | $3 / 1,000 results |
 | [Website to Markdown for LLM & RAG](https://apify.com/murch1k/website-to-markdown) | Convert web pages or whole websites to clean Markdown for LLMs, RAG and AI agents. Readability extraction, sitemap crawl, fast HTTP | $3 / 1,000 pages |
 | [Website to RAG Chunks](https://apify.com/murch1k/website-to-rag-chunks) | Crawl a website or docs into LLM-ready Markdown chunks with heading paths, token counts and content hashes for Pinecone, Qdrant, pgvector | $3 / 1,000 pages |
-| [YouTube Transcript Scraper](https://apify.com/murch1k/youtube-transcript-scraper) | Download YouTube transcripts in bulk: videos, Shorts, channels, playlists and search. Timestamps, SRT, auto-translate. No API key | $3 / 1,000 transcripts |
+| [YouTube Transcript Scraper](https://apify.com/murch1k/youtube-transcript-scraper) | Download YouTube transcripts in bulk: videos, Shorts, channels, playlists and search. Timestamps, SRT, auto-translate. No API key | $5 / 1,000 transcripts |
 | [Keyword Research](https://apify.com/murch1k/keyword-research-autocomplete) | Free-style keyword research tool: Google, YouTube, Amazon, Bing & DuckDuckGo autocomplete suggestions, questions, intent tags | $3 / 1,000 keywords |
 | [Google Trends Scraper](https://apify.com/murch1k/google-trends-scraper) | Google Trends API alternative: interest over time, interest by region, related queries & topics, Trending Now for any country | $3 / 1,000 results |
 | [Substack Scraper](https://apify.com/murch1k/substack-scraper) | Scrape Substack newsletters, subscriber counts, authors and posts with full article text. Search, categories, leaderboards | $3 / 1,000 results |
@@ -117,7 +117,7 @@ All scrapers: pay per result, no login, no API keys for the target sites, export
 
 | Scraper | What you get | Price |
 |---|---|---|
-| [Career Site Jobs Scraper](https://apify.com/murch1k/career-site-jobs-scraper) | Scrape every open job from company career sites: Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday & more. One clean schema | $3 / 1,000 jobs |
+| [Career Site Jobs Scraper](https://apify.com/murch1k/career-site-jobs-scraper) | Scrape every open job from company career sites: Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday & more. One clean schema | $6 / 1,000 jobs |
 | [LinkedIn Jobs Scraper](https://apify.com/murch1k/linkedin-jobs-scraper) | Scrape LinkedIn job postings without login: title, company, salary, full description, seniority, applicants. All LinkedIn filters | $3 / 1,000 jobs |
 | [StepStone Jobs Scraper](https://apify.com/murch1k/stepstone-jobs-scraper) | Scrape StepStone job ads in Germany, Austria, Belgium and the Netherlands: salary, full description, company, location | $2.5 / 1,000 jobs |
 | [Dice Jobs Scraper](https://apify.com/murch1k/dice-jobs-scraper) | Scrape Dice.com tech jobs: salary, full description, contract/C2C, remote, recruiter vs direct hire, visa sponsorship | $2.5 / 1,000 jobs |
@@ -130,9 +130,9 @@ All scrapers: pay per result, no login, no API keys for the target sites, export
 | [Website Contact Details Extractor](https://apify.com/murch1k/website-contact-details-extractor) | Extract emails, phone numbers and social profiles from any list of websites. One row per domain, Cloudflare-protected emails decoded | $3 / 1,000 websites |
 | [Google Maps Scraper](https://apify.com/murch1k/google-maps-scraper) | Scrape Google Maps businesses: name, address, phone, website, rating, reviews count, plus emails and social links from their websites | $3 / 1,000 places |
 | [Website Tech Stack Detector](https://apify.com/murch1k/website-tech-stack-detector) | Detect the tech stack of any website: CMS, e-commerce platform, analytics, CRM, live chat, hosting and email provider (MX) | $2 / 1,000 websites |
-| [LinkedIn Company Scraper](https://apify.com/murch1k/linkedin-company-scraper) | Scrape LinkedIn company pages without login: industry, company size, HQ, founded, website, followers, employee count, similar companies | $3 / 1,000 companys |
-| [Google Play Scraper](https://apify.com/murch1k/google-play-scraper) | Scrape Google Play apps with developer email, website and address, ratings and unlimited reviews. Any country | $3 / 1,000 apps |
-| [App Store Scraper](https://apify.com/murch1k/app-store-scraper) | Scrape Apple App Store apps, developer portfolios, ratings and reviews from many countries. ASO research | $2 / 1,000 apps |
+| [LinkedIn Company Scraper](https://apify.com/murch1k/linkedin-company-scraper) | Scrape LinkedIn company pages without login: industry, company size, HQ, founded, website, followers, employee count, similar companies | $3 / 1,000 companies |
+| [Google Play Scraper](https://apify.com/murch1k/google-play-scraper) | Scrape Google Play apps with developer email, website and address, ratings and unlimited reviews. Any country | $3 / 1,000 apps + $0.8 / 1,000 reviews |
+| [App Store Scraper](https://apify.com/murch1k/app-store-scraper) | Scrape Apple App Store apps, developer portfolios, ratings and reviews from many countries. ASO research | $2 / 1,000 apps + $0.8 / 1,000 reviews |
 
 ### 🛒 E-commerce
 
@@ -153,7 +153,7 @@ All scrapers: pay per result, no login, no API keys for the target sites, export
 | [Google News Scraper](https://apify.com/murch1k/google-news-scraper) | Scrape Google News by keyword, topic and date range. Resolves news.google.com links to real publisher URLs. Any language & country | $2 / 1,000 articles |
 | [Telegram Channel Scraper](https://apify.com/murch1k/telegram-channel-scraper) | Scrape public Telegram channels without login: posts, views, reactions, media, links and channel info. Full history or since a date | $2 / 1,000 posts |
 | [Pinterest Scraper](https://apify.com/murch1k/pinterest-scraper) | Scrape Pinterest pins, boards, profiles and search results: images, outbound links, saves, followers, monthly views. No login | $2 / 1,000 results |
-| [Threads Profile Scraper](https://apify.com/murch1k/threads-profile-scraper) | Scrape Threads (Meta) profiles without login: followers, bio, verified, engagement rate, average likes and latest posts | $3 / 1,000 profiles |
+| [Threads Profile Scraper](https://apify.com/murch1k/threads-profile-scraper) | Scrape Threads (Meta) profiles without login: followers, bio, verified, engagement rate, average likes and latest posts | $3 / 1,000 profiles + $1 / 1,000 posts |
 | [TikTok Profile Scraper](https://apify.com/murch1k/tiktok-profile-scraper) | Scrape TikTok profiles: exact followers, likes, video count, engagement, bio link and emails, verified & TikTok Shop flags. No login | $3 / 1,000 profiles |
 
 ## Examples in this repo
