@@ -1,7 +1,7 @@
 """All open jobs from company career sites (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday...) -> jobs.csv
 
 Usage: APIFY_TOKEN=... python career_jobs.py stripe.com huggingface.co https://jobs.lever.co/palantir
-Actor: https://apify.com/murch1k/career-site-jobs-scraper ($6 per 1,000 jobs)
+Actor: https://apify.com/torix33/career-site-jobs-scraper ($6 per 1,000 jobs)
 """
 import csv
 import os
@@ -10,7 +10,7 @@ import sys
 from apify_client import ApifyClient
 
 client = ApifyClient(os.environ["APIFY_TOKEN"])
-run = client.actor("murch1k/career-site-jobs-scraper").call(run_input={
+run = client.actor("torix33/career-site-jobs-scraper").call(run_input={
     "companies": sys.argv[1:] or ["huggingface.co", "https://boards.greenhouse.io/stripe"],
     "keywords": ["engineer", "data"],      # title filter, empty = all jobs
     "postedWithinDays": 30,

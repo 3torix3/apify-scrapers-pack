@@ -1,7 +1,7 @@
 """YouTube transcripts -> overlapping chunks -> chunks.jsonl (ready for any vector DB).
 
 Usage: APIFY_TOKEN=... python youtube_transcripts_rag.py <video|@channel|playlist URL> [more URLs]
-Actor: https://apify.com/murch1k/youtube-transcript-scraper ($5 per 1,000 transcripts, caption-less videos are free)
+Actor: https://apify.com/torix33/youtube-transcript-scraper ($5 per 1,000 transcripts, caption-less videos are free)
 """
 import json
 import os
@@ -27,7 +27,7 @@ def chunks(segments, video):
 
 def main(urls):
     client = ApifyClient(os.environ["APIFY_TOKEN"])
-    run = client.actor("murch1k/youtube-transcript-scraper").call(
+    run = client.actor("torix33/youtube-transcript-scraper").call(
         run_input={"urls": urls, "maxVideosPerSource": 10, "languages": ["en"], "includeSegments": True})
     n = 0
     with open("chunks.jsonl", "w") as out:

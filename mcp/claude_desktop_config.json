@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "apify": {
-      "url": "https://mcp.apify.com/?tools=murch1k/rag-web-search,murch1k/website-to-markdown,murch1k/youtube-transcript-scraper,murch1k/website-contact-details-extractor",
+      "url": "https://mcp.apify.com/?tools=torix33/rag-web-search,torix33/website-to-markdown,torix33/youtube-transcript-scraper,torix33/website-contact-details-extractor",
       "headers": { "Authorization": "Bearer <APIFY_TOKEN>" }
     }
   }

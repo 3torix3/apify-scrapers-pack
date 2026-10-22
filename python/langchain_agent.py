@@ -9,8 +9,8 @@ from langchain_apify import ApifyActorsTool
 from langgraph.prebuilt import create_react_agent
 
 tools = [
-    ApifyActorsTool("murch1k/rag-web-search"),             # web search results with page content as Markdown
-    ApifyActorsTool("murch1k/youtube-transcript-scraper"),  # transcripts of videos, channels, playlists
+    ApifyActorsTool("torix33/rag-web-search"),             # web search results with page content as Markdown
+    ApifyActorsTool("torix33/youtube-transcript-scraper"),  # transcripts of videos, channels, playlists
 ]
 agent = create_react_agent(ChatAnthropic(model="claude-sonnet-5-5"), tools)
 
