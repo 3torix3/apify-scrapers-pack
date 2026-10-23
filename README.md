@@ -119,7 +119,7 @@ All scrapers: pay per result, no login, no API keys for the target sites, export
 |---|---|---|
 | [Career Site Jobs Scraper](https://apify.com/torix33/career-site-jobs-scraper) | Scrape every open job from company career sites: Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday & more. One clean schema | $6 / 1,000 jobs |
 | [LinkedIn Jobs Scraper](https://apify.com/torix33/linkedin-jobs-scraper) | Scrape LinkedIn job postings without login: title, company, salary, full description, seniority, applicants. All LinkedIn filters | $3 / 1,000 jobs |
-| [StepStone Jobs Scraper](https://apify.com/torix33/stepstone-jobs-scraper) | Scrape StepStone job ads in Germany, Austria, Belgium and the Netherlands: salary, full description, company, location | $2.5 / 1,000 jobs |
+| [StepStone Jobs Scraper](https://apify.com/torix33/stepstone-jobs-scraper) | Scrape StepStone job ads in Germany, Austria and Belgium: salary, full description, company, location | $2.5 / 1,000 jobs |
 | [Dice Jobs Scraper](https://apify.com/torix33/dice-jobs-scraper) | Scrape Dice.com tech jobs: salary, full description, contract/C2C, remote, recruiter vs direct hire, visa sponsorship | $2.5 / 1,000 jobs |
 | [Remote Jobs Aggregator](https://apify.com/torix33/remote-jobs-aggregator) | Collect remote jobs from 7 boards in one clean, deduplicated feed: keywords, location, posted-within filters. Ideal for job sites & alerts | $2 / 1,000 jobs |
 
